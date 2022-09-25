@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2"
+  },
+  "scripts": {
+    "start": "node esbuild/esbuild.run.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.7"
+  }
+}
